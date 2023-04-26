@@ -10,6 +10,8 @@
 
 .header {
     padding: 24px;
+
+    border-bottom: 1px solid #DEE2E6;
 }
 
 .logo {
@@ -61,6 +63,8 @@
 
 .footer {
     padding: 24px;
+
+    border-top: 1px solid #DEE2E6;
 }
 
 .footer_copyright {
@@ -83,6 +87,7 @@
     font-weight: 500px;
     margin-bottom: 12px;
     text-align: center;
+
 }
 
 .hero_text {
@@ -91,6 +96,7 @@
     text-align: center;
     max-width: 585px;
     margin: 0 auto;
+    line-height: 100%;
 }
 
 .plans_card:not(:last-of-type) {
@@ -116,12 +122,12 @@
 } 
 
 .card_price_duration {
-      font-size: 29px;
+      font-size: 20px;
       color: #6c757d;
+      vertical-align: 12px;
 }
 
 .card_block {
-    margin-bottom: 24px;
     text-align: center;
 
 }
@@ -148,4 +154,35 @@
     width: 100%;
     font-size: 19px;
     padding: 9px;
+}
+
+.card {
+    border: 2px solid rgb(255, 183, 0);
+
+    border-radius: 15px ;
+
+    box-shadow: 5px 5px 5px 1px rgba(255, 38, 0, 0.555);
+}
+
+.card:hover {
+    outline: 2px solid blue;
+    outline-offset: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px rgba(255, 0, 0, 0.55);
+}
+
+.plans_card:nth-child(2) {
+    background: red;
+    visibility: hidden;
+}
+
+p {
+    background: gray;
 }
